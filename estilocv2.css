@@ -1,0 +1,87 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    background-color: #f4f4f4
+}
+
+header {
+    background-color: #364552 ;
+    color: white;
+    padding-top: 1px;
+    position: sticky;
+    top: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: auto 0;
+    text-align: center;
+}
+
+.img {
+    transition: box-shadow 0.5s ease;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-left: 1rem;
+    cursor: pointer;
+    
+}
+
+.img:hover {
+    box-shadow: 0 5px 5px #0000004d;
+}
+
+.table_habilidades{
+    border-collapse: collapse;
+    max-width: 500px;
+    margin: 0.7rem 0;
+}
+
+.table_habilidades th {
+    text-align: left;
+}
+
+.table_habilidades th, .table_habilidades td {
+    border: #000 solid;
+    
+}
+
+footer {
+    background-color: #222;
+    padding: 1px;
+}
+
+footer a {
+    color: #fff;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #6495ed;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.contact_inf {
+    text-align: left;
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.educacion {
+    margin-left: 1rem;
+}
+
+.h4 {
+    margin-left: 1rem;
+    float: right;
+    margin-right: 1rem;
+} 
